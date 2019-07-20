@@ -1,4 +1,4 @@
-from Flask import flask, render_template, redirect 
+from flask import Flask, render_template, redirect 
 from flask_pymongo import PyMongo
 import pymongo
 import scrape_mars
@@ -8,20 +8,25 @@ app = Flask(__name__)
 
 #Use PyMongo to establish Mongo connection 
 conn ='mongodb://localhost:27017'
-client = pymongo.MongoClient(conn, ConnectTimeoutMS=30000)
+client = pymongo.MongoClient(conn)
 
 db = client.mars_data_db
-collection = mars_data_coll
+collection = db.mars_coll
+
+db.mars_data_db.drop()
+
+
 
 
 #Route to render template using the data from Mongo
 @app.route("/")
 def home():
 
-    mars_scraping = collection.find_one()
+    mars_scraping = mongo.db.collection.find_one()
 
-    return render_template('mars.html', mars_scraping=mars_scraping)
-from scrape_mars import mars_scrape
+    return render_template('mars.html', mars=mars)
+
+# from scrape_mars import mars_scrape
 
 @app.route("/scrape")
 def scrape():
@@ -32,7 +37,7 @@ def scrape():
     #Update the mongo database using and upsert = True
     collection.update({"id":1}, {"$set": mars_data}, upsert = True)
 
-    return redirect("http://localhost:5000/", code=302)
+    return redirect("/")
 
 
 
