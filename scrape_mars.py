@@ -154,13 +154,15 @@ def scraped_info():
 
    print(hemispheres_image_urls)
 
-   return {
-      'news title': news_title,
-      'news paragraph': news_p,
-      'featured image': final_featured_image,
-      'mars weather' : mars_weather,
-      'mars table': mars_table,
-      'mars hemispheres': hemispheres_image_urls
-}
+   result = {
+      'news_title': news_title,
+      'news_paragraph': news_p,
+      'featured_image': final_featured_image,
+      'mars_weather' : mars_weather,
+      'mars_table': mars_table,
+      'mars_hemispheres': hemispheres_image_urls
+   }
+   print(result)
+   return result 
 
 
