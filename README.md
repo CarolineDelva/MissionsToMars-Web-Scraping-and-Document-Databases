@@ -6,17 +6,15 @@ I completed this project during my time at the [Columbia Engineering Data Analyt
 
 ![mission_to_mars](Instructions/Images/mission_to_mars.png)
 
-The purpose of this project is to build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines what you need to do.
+The purpose of this project is to build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. 
 
-## Step 1 - Scraping
+The final project includes the following:
 
-Complete your initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
+* A Jupyter Notebook file called `mission_to_mars.ipynb` that scrapes the following:
 
-* Create a Jupyter Notebook file called `mission_to_mars.ipynb` and use this to complete all of your scraping and analysis tasks. The following outlines what you need to scrape.
+#### NASA Mars News
 
-### NASA Mars News
-
-* Scrape the [NASA Mars News Site](https://mars.nasa.gov/news/) and collect the latest News Title and Paragraph Text. Assign the text to variables that you can reference later.
+* [NASA Mars News Site](https://mars.nasa.gov/news/) for the latest News Title and Paragraph Text. 
 
 ```python
 # Example:
@@ -25,7 +23,7 @@ news_title = "NASA's Next Mars Mission to Investigate Interior of Red Planet"
 news_p = "Preparation of NASA's next spacecraft to Mars, InSight, has ramped up this summer, on course for launch next May from Vandenberg Air Force Base in central California -- the first interplanetary launch in history from America's West Coast."
 ```
 
-### JPL Mars Space Images - Featured Image
+#### JPL Mars Space Images - Featured Image
 
 * Visit the url for JPL Featured Space Image [here](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars).
 
@@ -117,3 +115,5 @@ To submit your work to BootCampSpot, create a new GitHub repository and upload t
 ## Copyright
 
 © 2019 Trilogy Education Services. All Rights Reserved.
+
+Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
