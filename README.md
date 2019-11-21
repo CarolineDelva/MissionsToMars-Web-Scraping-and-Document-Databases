@@ -45,9 +45,8 @@ mars_weather = 'Sol 1801 (Aug 30, 2017), Sunny, high -21C/-5F, low -80C/-112F, p
 
 ### Mars Facts
 
-* Visit the Mars Facts webpage [here](https://space-facts.com/mars/) and use Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc.
+* The table containing facts about the planet including Diameter, Mass, etc. from the [Mars Facts webpage](https://space-facts.com/mars/) using Pandas. 
 
-* Use Pandas to convert the data to a HTML table string.
 
 ### Mars Hemispheres
 
