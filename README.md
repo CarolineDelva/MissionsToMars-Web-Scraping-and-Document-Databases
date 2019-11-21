@@ -10,7 +10,7 @@ The purpose of this project is to build a web application that scrapes various w
 
 The final project includes the following:
 
-* A Jupyter Notebook file called `mission_to_mars.ipynb` that scrapes the following:
+## * A Jupyter Notebook file called `mission_to_mars.ipynb` that scrapes the following:
 
 #### NASA Mars News
 
@@ -50,13 +50,7 @@ mars_weather = 'Sol 1801 (Aug 30, 2017), Sunny, high -21C/-5F, low -80C/-112F, p
 
 ### Mars Hemispheres
 
-* Visit the USGS Astrogeology site [here](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars) to obtain high resolution images for each of Mar's hemispheres.
-
-* You will need to click each of the links to the hemispheres in order to find the image url to the full resolution image.
-
-* Save both the image url string for the full resolution hemisphere image, and the Hemisphere title containing the hemisphere name. Use a Python dictionary to store the data using the keys `img_url` and `title`.
-
-* Append the dictionary with the image url string and the hemisphere title to a list. This list will contain one dictionary for each hemisphere.
+* High resolution images for each of Mar's hemispheres from the [USGS Astrogeology site](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars).
 
 ```python
 # Example:
