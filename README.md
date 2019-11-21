@@ -10,7 +10,7 @@ The purpose of this project is to build a web application that scrapes various w
 
 The final project includes the following:
 
-## * A Jupyter Notebook file called `mission_to_mars.ipynb` that scrapes the following:
+### * A Jupyter Notebook file called `mission_to_mars.ipynb` that scrapes the following:
 
 #### NASA Mars News
 
