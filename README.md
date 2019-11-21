@@ -34,7 +34,7 @@ news_p = "Preparation of NASA's next spacecraft to Mars, InSight, has ramped up 
 featured_image_url = 'https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA16225_hires.jpg'
 ```
 
-### Mars Weather
+#### Mars Weather
 
 * The latest Mars weather tweet on the [Mars Weather twitter account](https://twitter.com/marswxreport?lang=en) and saved as a variable called `mars_weather`.
 
@@ -43,12 +43,12 @@ featured_image_url = 'https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA1
 mars_weather = 'Sol 1801 (Aug 30, 2017), Sunny, high -21C/-5F, low -80C/-112F, pressure at 8.82 hPa, daylight 06:09-17:55'
 ```
 
-### Mars Facts
+#### Mars Facts
 
 * The table containing facts about the planet including Diameter, Mass, etc. from the [Mars Facts webpage](https://space-facts.com/mars/) using Pandas. 
 
 
-### Mars Hemispheres
+#### Mars Hemispheres
 
 * High resolution images for each of Mar's hemispheres from the [USGS Astrogeology site](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars).
 
