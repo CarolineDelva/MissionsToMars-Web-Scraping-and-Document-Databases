@@ -36,7 +36,7 @@ featured_image_url = 'https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA1
 
 ### Mars Weather
 
-* Visit the Mars Weather twitter account [here](https://twitter.com/marswxreport?lang=en) and scrape the latest Mars weather tweet from the page. Save the tweet text for the weather report as a variable called `mars_weather`.
+* The latest Mars weather tweet on the [Mars Weather twitter account](https://twitter.com/marswxreport?lang=en) and saved as a variable called `mars_weather`.
 
 ```python
 # Example:
